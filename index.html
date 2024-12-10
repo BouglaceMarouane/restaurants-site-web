@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="shortcut icon" href="images/favicon.png" type="">
+  
+  <title> MARone REST </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/e469170879.js" crossorigin="anonymous"></script>
+
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+  <div class="hero_area">
+
+    <div class="bg-box">
+      <img src="images/hamburguesa-2.jpg" alt="">
+    </div>
+
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              MARone REST
+            </span>
+          </a>
+
+          <button class="navbar-toggler btn text-white p-0" type="button">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav  mx-auto ">
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="book.html">Book Table</a>
+              </li>
+            </ul>
+            <div class="user_option">
+              <a href="#footer" class="user_link">
+                <i class="fa fa-user"></i>
+              </a>
+              <a class="cart_link" href="menu.html">
+                <i class="fa fa-shopping-cart"></i>
+              </a>
+              <form class="form-inline">
+                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                  <i class="fa fa-search"></i>
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div id="customCarousel1" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container ">
+              <div class="row">
+                <div class="col-md-7 col-lg-6 ">
+                  <div class="detail-box">
+                    <h1>
+                      Fast Food Restaurant
+                    </h1>
+                    <p>
+                      MARone REST is a fast food restaurant dedicated to providing quick, delicious, and affordable meals. Whether you're craving classic favorites like burgers and fries or something unique, MARone REST offers a diverse menu to satisfy all tastes. With a focus on convenience and quality, it's the perfect spot for busy individuals <br>and families alike.</p>
+                    <div class="btn-box">
+                      <a href="book.html" class="btn1">
+                        Order Now
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+
+  </div>
+
+  <!-- offer section -->
+
+  <section class="offer_section layout_padding-bottom">
+    <div class="offer_container">
+      <div class="container ">
+        <div class="heading_container heading_center">
+          <h2>
+            Daily Offer
+          </h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6  ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/o1.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Crunchy Bite
+                </h5>
+                <h6>
+                  <span>20%</span> Off
+                </h6>
+                <a href="book.html" class="btn btn-warning">Order Now    <i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6  ">
+            <div class="box ">
+              <div class="img-box">
+                <img src="images/o2.jpg" alt="">
+              </div>
+              <div class="detail-box">
+                <h5>
+                  Taco Pizza Twist
+                </h5>
+                <h6>
+                  <span>15%</span> Off
+                </h6>
+                <a href="book.html" class="btn btn-warning">Order Now    <i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end offer section -->
+
+  <!-- food section -->
+
+  <section class="food_section layout_padding-bottom">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Our Menu
+        </h2>
+      </div>
+
+      <ul class="filters_menu">
+        <li class="active">All</li>
+        <li data-filter=".burger">Burger</li>
+        <li data-filter=".pizza">Pizza</li>
+        <li data-filter=".pasta">Pasta</li>
+        <li data-filter=".fries">Fries</li>
+      </ul>
+
+      <div class="filters-content">
+        <div class="row grid">
+          <div class="col-sm-6 col-lg-4 all pizza">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f1.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Seafood Sensation
+                  </h5>
+                  <p>
+                    The Seafood Sensation combines fresh shrimp, calamari, and seafood in a garlic butter sauce, with a touch of lemon and herbs for a flavorful, ocean-inspired dish.                  </p>
+                  <div class="options">
+                    <h6>
+                      7$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all burger">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f2.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Bacon Bliss
+                  </h5>
+                  <p>
+                    Bacon Bliss is a delectable burger featuring crispy, smoky bacon paired with a juicy beef patty, melted cheese, and your favorite sauce.</p>
+                  <div class="options">
+                    <h6>
+                      8$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all pizza">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f3.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Cheesy Bliss
+                  </h5>
+                  <p>
+                    Cheesy Bliss is a mouthwatering dish packed with layers of melted, gooey cheese. Perfect for cheese lovers, it’s incredibly satisfying. <br><br></p>
+                  <div class="options">
+                    <h6>
+                      5$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all pasta">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f4.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Pesto Perfection
+                  </h5>
+                  <p>
+                    Pesto Perfection features a vibrant, fresh basil pesto sauce that coats pasta or a dish with rich. It’s the ideal choice for those craving a light yet flavorful meal.</p>
+                  <div class="options">
+                    <h6>
+                      4$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all fries">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f5.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    French Fries
+                  </h5>
+                  <p>
+                    French Fries are crispy and golden, offering the ideal balance of crunch. A classic side dish, they’re the perfect complement to any meal at MARone REST.</p>
+                  <div class="options">
+                    <h6>
+                      1$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all pizza">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f6.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Pepperoni Perfection
+                  </h5>
+                  <p>
+                    Pepperoni Perfection is a classic pizza with spicy pepperoni, melted cheese, and rich tomato sauce—perfect for bold flavor lovers. <br><br></p>
+                  <div class="options">
+                    <h6>
+                      15$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all burger">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f7.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Golden Crunch
+                  </h5>
+                  <p>
+                    Golden Crunch features crispy, golden-fried chicken or fries. It’s the perfect dish for those who love a crunchy, flavorful experience.                  </p>
+                  <div class="options">
+                    <h6>
+                      12$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all burger">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f8.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Sunrise Burger
+                  </h5>
+                  <p>
+                    Sunrise Burger features a fried egg, crispy bacon, and savory sauce for a breakfast-inspired twist on a classic burger.                  </p>
+                  <div class="options">
+                    <h6>
+                      6$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4 all pasta">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f9.png" alt="">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Cheesy Carbonara
+                  </h5>
+                  <p>
+                    Cheesy Carbonara is a creamy pasta dish made with rich cheese, crispy bacon, and a velvety sauce. <br><br></p>
+                  <div class="options">
+                    <h6>
+                      5$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <a href="menu.html">
+          View More
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- end food section -->
+
+  <!-- about section -->
+
+  <section class="about_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 ">
+          <div class="img-box">
+            <img src="images/about-img.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-box">
+            <div class="heading_container">
+              <h2>
+                We Are MARone REST
+              </h2>
+            </div>
+            <p>
+              At MARone REST, we offer a vibrant dining experience that combines quality, flavor, and convenience. Our menu features a variety of delicious options, from juicy burgers and crispy fries to mouthwatering pizzas and pasta. Whether you're in the mood ... 
+            </p>
+            <a href="about.html">
+              Read More
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end about section -->
+
+  <!-- book section -->
+  <section class="book_section layout_padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="heading_container">
+            <h2>
+              Book A Table
+            </h2>
+          </div>
+          <div class="form_container">
+            <form action="#" method="post">
+              <div>
+                <input type="text" class="form-control" placeholder="Your Name" required>
+              </div>
+              <div>
+                <input type="text" class="form-control" placeholder="Phone Number" required>
+              </div>
+              <div>
+                <input type="email" class="form-control" placeholder="Your Email" required>
+              </div>
+              <div>
+                <select class="form-control nice-select wide" required>
+                  <option value="" disabled selected>
+                    How many persons?
+                  </option>
+                  <option value="2">
+                    2
+                  </option>
+                  <option value="3">
+                    3
+                  </option>
+                  <option value="4">
+                    4
+                  </option>
+                  <option value="5">
+                    5
+                  </option>
+                </select>
+              </div>
+              <div>
+                <input type="date" class="form-control">
+              </div>
+              <div class="btn_box">
+                <button>
+                  Book Now
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      
+        <div class="col-md-6 map">
+          <div class="heading_container">
+            <h2 class="ms-3">
+              Location
+            </h2>
+          </div>
+          <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3832.1863229399305!2d22.939458855723192!3d40.58756057549169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a83f18999b6105%3A0x7e844f6bcd3aa71d!2sMarrone%20Restaurant!5e0!3m2!1sen!2sma!4v1733856621201!5m2!1sen!2sma" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- end book section -->
+
+  <!-- client section -->
+  <section class="client_section layout_padding-bottom">
+    <div class="container">
+      <div class="heading_container heading_center psudo_white_primary mb_45">
+        <h2>
+          What Says Our Customers
+        </h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="client-box-rev">
+
+            <!-- box 1 -->
+            <div class="client-boxs">
+              <!-- top  -->
+              <div class="box-top">
+                <!-- profile -->
+                <div class="profile">
+                  <!-- img -->
+                   <div class="profile-img">
+                    <img src="images/anas.jpeg" alt="..">
+                   </div>
+                   <!-- name and username -->
+                    <div class="name-user">
+                      <strong>Anas Azyz</strong>
+                      <span>@Anas.azyz09</span>
+                    </div>
+                </div>
+                  <!-- reviews -->
+                <div class="reviews">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i> <!--empty star-->
+                </div>
+
+              </div>
+
+              <div class="client-comment">
+                <p>I can't get enough of MARone REST's burgers—they're juicy, flavorful, and always fresh. The fries are crispy perfection too! A must-visit for anyone craving fast food done right.</p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="client-box-rev">
+
+            <!-- box 2 -->
+            <div class="client-boxs">
+              <!-- top  -->
+              <div class="box-top">
+                <!-- profile -->
+                <div class="profile">
+                  <!-- img -->
+                   <div class="profile-img">
+                    <img src="images/faysal.jpeg" alt="..">
+                   </div>
+                   <!-- name and username -->
+                    <div class="name-user">
+                      <strong>Faysal Elallaoui</strong>
+                      <span>@Faysal.elallaoui07</span>
+                    </div>
+                </div>
+                  <!-- reviews -->
+                <div class="reviews">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <i class="far fa-star"></i> <!--empty star-->
+                </div>
+
+              </div>
+
+              <div class="client-comment">
+                <p>While the food was okay, I just don’t enjoy fast food much. The burger was too greasy for my liking, and the fries didn’t have much flavor. If you're into fast food, this might be your place, but it's not for me.</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="client-box-rev">
+
+            <!-- box 3 -->
+            <div class="client-boxs">
+              <!-- top  -->
+              <div class="box-top">
+                <!-- profile -->
+                <div class="profile">
+                  <!-- img -->
+                    <div class="profile-img">
+                    <img src="images/hicham.jpeg" alt="..">
+                    </div>
+                    <!-- name and username -->
+                    <div class="name-user">
+                      <strong>Hicham ben mina</strong>
+                      <span>@hicham.70</span>
+                    </div>
+                </div>
+                  <!-- reviews -->
+                <div class="reviews">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i> <!--empty star-->
+                </div>
+
+              </div>
+
+              <div class="client-comment">
+                <p>I was impressed by how fast my order was ready, and the food was incredible. The pizza was loaded with toppings and cooked to perfection. MARone REST is my new go-to spot!</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="client-box-rev">
+
+            <!-- box 4 -->
+            <div class="client-boxs">
+              <!-- top  -->
+              <div class="box-top">
+                <!-- profile -->
+                <div class="profile">
+                  <!-- img -->
+                   <div class="profile-img">
+                    <img src="images/client1.jpg" alt="..">
+                   </div>
+                   <!-- name and username -->
+                    <div class="name-user">
+                      <strong>Hind Agoujgal</strong>
+                      <span>@Hind-Agou.90</span>
+                    </div>
+                </div>
+                  <!-- reviews -->
+                <div class="reviews">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i> <!--empty star-->
+                </div>
+
+              </div>
+
+              <div class="client-comment">
+                <p>I had the low-calorie pasta with tomato sauce and cheese (Cheesy Carbonara), and it was the perfect meal after a long day. Not too heavy, but still filling and full of flavor. <br><br></p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- end client section -->
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <div class="footer_contact">
+            <h4>
+              Contact Us
+            </h4>
+            <div class="contact_link_box">
+              <a href="book.html">
+                <i class="fa fa-map-marker"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+              <a href="tel:+212 620667050">
+                <i class="fa fa-phone"></i>
+                <span>
+                  Call +212 620667050
+                </span>
+              </a>
+              <a href="mailto:bouglacemarouane@gmail.com">
+                <i class="fa fa-envelope"></i>
+                <span>
+                  bouglacemarouane@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <div class="footer_detail">
+            <a href="" class="footer-logo">
+              MARone REST
+            </a>
+            <p>
+              We're active on social media, where we share updates, promotions, and new menu items. Follow us on Facebook, Instagram, and Twitter to stay connected and be part of our community.</p>
+            <div class="footer_social">
+              <a href="">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <h4>
+            Opening Hours
+          </h4>
+          <p>
+            Everyday
+          </p>
+          <p>
+            10.00 Am - 11.00 Pm
+          </p>
+        </div>
+      </div>
+      <div class="footer-info">
+        <p>
+          &copy; All Rights Reserved By Marouane Bouglace</a><br><br>
+        </p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+</body>
+
+</html>
