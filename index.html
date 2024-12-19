@@ -2,31 +2,32 @@
 <html>
 
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- sa pour l'icon de title en haut -->
   <link rel="shortcut icon" href="images/favicon.png" type="">
   
   <title> MARone REST </title>
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="css/font-awesome.min.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/e469170879.js" crossorigin="anonymous"></script>
-
-  <link href="css/style.css" rel="stylesheet" />
-  <link href="css/responsive.css" rel="stylesheet" />
+  <!-- Link au css -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
 
 </head>
 
 <body>
-
+  <!-- Element Pere qui contient tous les contenu de la 1er slide -->
   <div class="hero_area">
-
+    <!-- L'image principale -->
     <div class="bg-box">
-      <img src="images/hamburguesa-2.jpg" alt="">
+      <img src="images/hamburguesa-2.jpg" alt="...">
     </div>
 
     <!-- header section strats -->
@@ -43,8 +44,8 @@
             <i class="fa-solid fa-bars"></i>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  mx-auto ">
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mx-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home </a>
               </li>
@@ -59,14 +60,14 @@
               </li>
             </ul>
             <div class="user_option">
-              <a href="#footer" class="user_link">
+              <a href="#client" class="user_link">
                 <i class="fa fa-user"></i>
               </a>
               <a class="cart_link" href="menu.html">
                 <i class="fa fa-shopping-cart"></i>
               </a>
               <form class="form-inline">
-                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
+                <button class="btn my-2 my-sm-0 nav_search-btn" type="submit">
                   <i class="fa fa-search"></i>
                 </button>
               </form>
@@ -105,12 +106,10 @@
       </div>
     </section>
     <!-- end slider section -->
-
   </div>
 
   <!-- offer section -->
-
-  <section class="offer_section layout_padding-bottom">
+  <section class="offer_section padding-bottom">
     <div class="offer_container">
       <div class="container ">
         <div class="heading_container heading_center">
@@ -119,10 +118,10 @@
           </h2>
         </div>
         <div class="row">
-          <div class="col-md-6  ">
-            <div class="box ">
+          <div class="col-md-6">
+            <div class="box">
               <div class="img-box">
-                <img src="images/o1.jpg" alt="">
+                <img src="images/o1.jpg" alt="..">
               </div>
               <div class="detail-box">
                 <h5>
@@ -135,10 +134,10 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6  ">
-            <div class="box ">
+          <div class="col-md-6">
+            <div class="box">
               <div class="img-box">
-                <img src="images/o2.jpg" alt="">
+                <img src="images/o2.jpg" alt="..">
               </div>
               <div class="detail-box">
                 <h5>
@@ -155,12 +154,11 @@
       </div>
     </div>
   </section>
-
   <!-- end offer section -->
 
   <!-- food section -->
-
-  <section class="food_section layout_padding-bottom">
+  <section class="food_section padding-bottom">
+    <!-- Element Pere qui contient tous les contenu de food section -->
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
@@ -168,21 +166,21 @@
         </h2>
       </div>
 
-      <ul class="filters_menu">
+      <ul class="Tri">
         <li class="active">All</li>
-        <li data-filter=".burger">Burger</li>
-        <li data-filter=".pizza">Pizza</li>
-        <li data-filter=".pasta">Pasta</li>
-        <li data-filter=".fries">Fries</li>
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>Pasta</li>
+        <li>Desserts</li>
       </ul>
-
-      <div class="filters-content">
-        <div class="row grid">
-          <div class="col-sm-6 col-lg-4 all pizza">
+      <!-- plats -->
+      <div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f1.png" alt="">
+                  <img src="images/f1.png" alt="..">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -202,11 +200,11 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all burger">
+          <div class="col-sm-6 col-lg-4">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f2.png" alt="">
+                  <img src="images/f2.png" alt="..">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -226,11 +224,11 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
+          <div class="col-sm-6 col-lg-4">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f3.png" alt="">
+                  <img src="images/f3.png" alt="..">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -250,11 +248,11 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all pasta">
+          <div class="col-sm-6 col-lg-4">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f4.png" alt="">
+                  <img src="images/f4.png" alt="..">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -274,21 +272,22 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all fries">
+          <div class="col-sm-6 col-lg-4">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f5.png" alt="">
+                  <img src="images/f10.png" alt="..">
                 </div>
                 <div class="detail-box">
                   <h5>
-                    French Fries
+                    Fettuccine Alfredo
                   </h5>
                   <p>
-                    French Fries are crispy and golden, offering the ideal balance of crunch. A classic side dish, they’re the perfect complement to any meal at MARone REST.</p>
+                    Fettuccine Alfredo is a creamy pasta dish made with butter, heavy cream, and Parmesan cheese. It’s rich, and served over tender fettuccine noodles.      
+                  </p>            
                   <div class="options">
                     <h6>
-                      1$
+                      7$
                     </h6>
                     <a href="" class="text-white">
                       <i class="fa-solid fa-cart-shopping"></i>
@@ -298,11 +297,11 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
+          <div class="col-sm-6 col-lg-4">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f6.png" alt="">
+                  <img src="images/f6.png" alt="..">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -322,11 +321,11 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all burger">
+          <div class="col-sm-6 col-lg-4">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f7.png" alt="">
+                  <img src="images/f7.png" alt="..">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -346,11 +345,11 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all burger">
+          <div class="col-sm-6 col-lg-4">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f8.png" alt="">
+                  <img src="images/f8.png" alt="..">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -370,11 +369,11 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all pasta">
+          <div class="col-sm-6 col-lg-4">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f9.png" alt="">
+                  <img src="images/f9.png" alt="..">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -396,24 +395,24 @@
           </div>
         </div>
       </div>
+
       <div class="btn-box">
         <a href="menu.html">
           View More
         </a>
       </div>
+
     </div>
   </section>
-
   <!-- end food section -->
 
   <!-- about section -->
-
-  <section class="about_section layout_padding">
+  <section class="about_section padding">
     <div class="container">
       <div class="row">
         <div class="col-md-6 ">
           <div class="img-box">
-            <img src="images/about-img.png" alt="">
+            <img src="images/about-img.png" alt="..">
           </div>
         </div>
         <div class="col-md-6">
@@ -434,11 +433,10 @@
       </div>
     </div>
   </section>
-
   <!-- end about section -->
 
   <!-- book section -->
-  <section class="book_section layout_padding">
+  <section class="book_section padding">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -481,7 +479,7 @@
                 <input type="date" class="form-control">
               </div>
               <div class="btn_box">
-                <button>
+                <button type="submit">
                   Book Now
                 </button>
               </div>
@@ -495,26 +493,26 @@
               Location
             </h2>
           </div>
+          <!-- J'ai copié ce clip de Google Maps -->
           <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3832.1863229399305!2d22.939458855723192!3d40.58756057549169!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a83f18999b6105%3A0x7e844f6bcd3aa71d!2sMarrone%20Restaurant!5e0!3m2!1sen!2sma!4v1733856621201!5m2!1sen!2sma" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-
       </div>
     </div>
   </section>
   <!-- end book section -->
 
   <!-- client section -->
-  <section class="client_section layout_padding-bottom">
+  <section class="client_section padding-bottom" id="client">
     <div class="container">
-      <div class="heading_container heading_center psudo_white_primary mb_45">
+      <div class="heading_container heading_center mb-3">
         <h2>
           What Says Our Customers
         </h2>
       </div>
       <div class="row">
         <div class="col-md-6">
+          <!-- review de mon client -->
           <div class="client-box-rev">
-
             <!-- box 1 -->
             <div class="client-boxs">
               <!-- top  -->
@@ -539,20 +537,17 @@
                   <i class="fas fa-star"></i>
                   <i class="far fa-star"></i> <!--empty star-->
                 </div>
-
               </div>
-
               <div class="client-comment">
                 <p>I can't get enough of MARone REST's burgers—they're juicy, flavorful, and always fresh. The fries are crispy perfection too! A must-visit for anyone craving fast food done right.</p>
               </div>
-
             </div>
 
           </div>
         </div>
         <div class="col-md-6">
+          <!-- review de mon client -->
           <div class="client-box-rev">
-
             <!-- box 2 -->
             <div class="client-boxs">
               <!-- top  -->
@@ -587,9 +582,11 @@
             </div>
           </div>
         </div>
+      </div>
+      <div class="row">
         <div class="col-md-6">
+          <!-- review de mon client -->
           <div class="client-box-rev">
-
             <!-- box 3 -->
             <div class="client-boxs">
               <!-- top  -->
@@ -625,8 +622,8 @@
           </div>
         </div>
         <div class="col-md-6">
+          <!-- review de mon client -->
           <div class="client-box-rev">
-
             <!-- box 4 -->
             <div class="client-boxs">
               <!-- top  -->
@@ -635,12 +632,12 @@
                 <div class="profile">
                   <!-- img -->
                    <div class="profile-img">
-                    <img src="images/client1.jpg" alt="..">
+                    <img src="images/khadija.jpeg" alt="..">
                    </div>
                    <!-- name and username -->
                     <div class="name-user">
-                      <strong>Hind Agoujgal</strong>
-                      <span>@Hind-Agou.90</span>
+                      <strong>Khadija Maaz</strong>
+                      <span>@Maaz-khadija.90</span>
                     </div>
                 </div>
                   <!-- reviews -->
@@ -699,7 +696,7 @@
         </div>
         <div class="col-md-4 footer-col">
           <div class="footer_detail">
-            <a href="" class="footer-logo">
+            <a href="about.html" class="footer-logo">
               MARone REST
             </a>
             <p>
@@ -737,7 +734,5 @@
     </div>
   </footer>
   <!-- footer section -->
-
 </body>
-
 </html>

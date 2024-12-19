@@ -1,4 +1,6 @@
+/* Ce lien pour le font de mon site */
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap");
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #0c0c0c;
@@ -6,15 +8,16 @@ body {
   overflow-x: hidden;
 }
 
-.layout_padding {
+/* j'utulise sa comme une fonction est j'apple sa dans html */
+.padding {
   padding: 90px 0;
 }
 
-.layout_padding-top {
+.padding-top {
   padding-top: 90px;
 }
 
-.layout_padding-bottom {
+.padding-bottom {
   padding-bottom: 90px;
 }
 
@@ -46,7 +49,7 @@ a:focus {
   text-decoration: none;
 }
 
-/*header section*/
+/* Start header section */
 .hero_area {
   position: relative;
   min-height: 100vh;
@@ -83,9 +86,8 @@ a:focus {
 .sub_page .hero_area .bg-box img {
   width: 100%;
   height: 100%;
-  object-position: right top;
+  object-position: right top; 
 }
-
 
 .navbar-brand {
   font-family: 'Dancing Script', cursive;
@@ -169,9 +171,9 @@ a:focus {
   width: 37px;
   height: 42px;
 }
-/*end header section*/
+/* End header section */
 
-/* slider section */
+/* Start slider section */
 .slider_section {
   flex: 1;
   display: flex;
@@ -214,9 +216,9 @@ a:focus {
   border: none;
   margin-top: 10px;
 }
+/* End slider section */
 
-/* offer section */
-
+/* start offer section */
 .offer_section {
   position: relative;
   padding-top: 45px;
@@ -282,10 +284,10 @@ a:focus {
 .offer_section .box:hover .img-box img {
   transform: scale(1.1);
 }
+/* End offer section */
 
-/* food section */
-
-.food_section .filters_menu {
+/* Start food section */
+.food_section .Tri {
   padding: 0;
   display: flex;
   flex-wrap: wrap;
@@ -294,13 +296,13 @@ a:focus {
   margin: 45px 0 20px 0;
 }
 
-.food_section .filters_menu li {
+.food_section .Tri li {
   padding: 7px 25px;
   cursor: pointer;
   border-radius: 25px;
 }
 
-.food_section .filters_menu li.active {
+.food_section .Tri li.active {
   background-color: #222831;
   color: #ffffff;
 }
@@ -313,7 +315,7 @@ a:focus {
   color: #ffffff;
   border-radius: 15px;
   overflow: hidden;
-  background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);
+  background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px); /*j'utilise sa pour la couleur degrader qui commence de bas en haut*/
 }
 
 .food_section .box .img-box {
@@ -391,9 +393,9 @@ a:focus {
 .food_section .btn-box a:hover {
   background-color: #e69c00;
 }
+/* End food section */
 
-/* about section */
-
+/* Start about section */
 .about_section {
   background: #222831;
   color: #ffffff;
@@ -435,9 +437,9 @@ a:focus {
 .about_section .detail-box a:hover {
   background-color: #e69c00;
 }
+/* End about section */
 
-/* book section */
-
+/* Start book section */
 .book_section {
   position: relative;
 }
@@ -497,8 +499,9 @@ a:focus {
   min-height: 100%;
   width: 100%;
 }
+/* End book section */
 
-/* client section start */
+/* Start client section  */
 
 .client-box-rev{
   display: flex;
@@ -572,6 +575,7 @@ a:focus {
   max-width: 600px;
   
 }
+
 iframe{
   border-radius: 2em;
   border: 3px solid #ffbe33;
@@ -631,8 +635,9 @@ iframe{
 .contact_section .form_container button:hover {
   background-color: #e69c00;
 }
+/* End client section  */
 
-/* footer section*/
+/* Start footer section*/
 .footer_section {
   background-color: #222831;
   color: #ffffff;
@@ -720,3 +725,4 @@ iframe{
   color: #ffffff;
   margin: 0;
 }
+/* End footer section*/

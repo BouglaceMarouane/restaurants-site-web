@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+  <link rel="shortcut icon" href="images/favicon.png" type="">
   <title> MARone REST </title>
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -40,7 +40,7 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  mx-auto ">
+            <ul class="navbar-nav  mx-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home </a>
               </li>
@@ -55,15 +55,15 @@
               </li>
             </ul>
             <div class="user_option">
-              <a href="#footer" class="user_link">
+              <a href="index.html" class="user_link">
                 <i class="fa fa-user"></i>
               </a>
-              <a class="cart_link text-white" href="#">
+              <a class="cart_link text-white" href="menu.html">
                 <i class="fa fa-shopping-cart"></i>
               </a>
               <form class="form-inline">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
+                  <i class="fa fa-search"></i>
                 </button>
               </form>
             </div>
@@ -74,31 +74,54 @@
     <!-- end header section -->
   </div>
 
-  <!-- food section -->
-
-  <section class="food_section layout_padding-bottom">
+  <!-- start food section -->
+  <section class="food_section padding-bottom">
     <div class="container">
-      <div class="heading_container heading_center">
+      <div class="heading_container heading_center mt-5">
         <h2>
           Our Menu
         </h2>
       </div>
-
-      <ul class="filters_menu">
+      <ul class="Tri">
         <li class="active">All</li>
-        <li data-filter=".burger">Burger</li>
-        <li data-filter=".pizza">Pizza</li>
-        <li data-filter=".pasta">Pasta</li>
-        <li data-filter=".fries">Fries</li>
+        <li>Pizza</li>
+        <li>Burger</li>
+        <li>Pasta</li>
+        <li>Desserts</li>
       </ul>
-
-      <div class="filters-content">
-        <div class="row grid">
-          <div class="col-sm-6 col-lg-4 all pizza">
+      <div>
+        <div class="row">
+          <!-- Pizza -->
+          <div class="col-sm-6 col-lg-4">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f1.png" alt="">
+                  <img src="images/f6.png" alt="..">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Pepperoni Perfection
+                  </h5>
+                  <p>
+                    Pepperoni Perfection is a classic pizza with spicy pepperoni, melted cheese, and rich tomato sauce—perfect for bold flavor lovers. <br>
+                  </p>
+                  <div class="options">
+                    <h6>
+                      15$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f1.png" alt="..">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -118,35 +141,11 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all burger">
+          <div class="col-sm-6 col-lg-4">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f2.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Bacon Bliss
-                  </h5>
-                  <p>
-                    Bacon Bliss is a delectable burger featuring crispy, smoky bacon paired with a juicy beef patty, melted cheese, and your favorite sauce.</p>
-                  <div class="options">
-                    <h6>
-                      8$
-                    </h6>
-                    <a href="" class="text-white">
-                      <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/f3.png" alt="">
+                  <img src="images/f3.png" alt="..">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -166,83 +165,12 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all pasta">
+          <!-- Burger -->
+          <div class="col-sm-6 col-lg-4">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f4.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Pesto Perfection
-                  </h5>
-                  <p>
-                    Pesto Perfection features a vibrant, fresh basil pesto sauce that coats pasta or a dish with rich. It’s the ideal choice for those craving a light yet flavorful meal.</p>
-                  <div class="options">
-                    <h6>
-                      4$
-                    </h6>
-                    <a href="" class="text-white">
-                      <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all fries">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/f5.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    French Fries
-                  </h5>
-                  <p>
-                    French Fries are crispy and golden, offering the ideal balance of crunch. A classic side dish, they’re the perfect complement to any meal at MARone REST.</p>
-                  <div class="options">
-                    <h6>
-                      1$
-                    </h6>
-                    <a href="" class="text-white">
-                      <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all pizza">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/f6.png" alt="">
-                </div>
-                <div class="detail-box">
-                  <h5>
-                    Pepperoni Perfection
-                  </h5>
-                  <p>
-                    Pepperoni Perfection is a classic pizza with spicy pepperoni, melted cheese, and rich tomato sauce—perfect for bold flavor lovers. <br></p>
-                  <div class="options">
-                    <h6>
-                      15$
-                    </h6>
-                    <a href="" class="text-white">
-                      <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all burger">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <img src="images/f7.png" alt="">
+                  <img src="images/f7.png" alt="..">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -261,12 +189,36 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-sm-6 col-lg-4 all burger">
+          </div> 
+          <div class="col-sm-6 col-lg-4">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f8.png" alt="">
+                  <img src="images/f2.png" alt="..">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Bacon Bliss
+                  </h5>
+                  <p>
+                    Bacon Bliss is a delectable burger featuring crispy, smoky bacon paired with a juicy beef patty, melted cheese.</p>
+                  <div class="options">
+                    <h6>
+                      8$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f8.png" alt="..">
                 </div>
                 <div class="detail-box">
                   <h5>
@@ -286,18 +238,44 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-lg-4 all pasta">
+          <!-- Pasta -->
+          <div class="col-sm-6 col-lg-4">
             <div class="box">
               <div>
                 <div class="img-box">
-                  <img src="images/f9.png" alt="">
+                  <img src="images/f10.png" alt="..">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Fettuccine Alfredo
+                  </h5>
+                  <p>
+                    Fettuccine Alfredo is a creamy pasta dish made with butter, heavy cream, and Parmesan cheese. It’s rich, and served over tender fettuccine noodles.                  
+                  </p>
+                  <div class="options">
+                    <h6>
+                      7$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f9.png" alt="..">
                 </div>
                 <div class="detail-box">
                   <h5>
                     Cheesy Carbonara
                   </h5>
                   <p>
-                    Cheesy Carbonara is a creamy pasta dish made with rich cheese, crispy bacon, and a velvety sauce. <br><br></p>
+                    Cheesy Carbonara is a classic pasta dish made with crispy pancetta, a creamy egg-and-cheese sauce, delivering rich and comforting flavors in every bite.</p>
                   <div class="options">
                     <h6>
                       5$
@@ -310,19 +288,113 @@
               </div>
             </div>
           </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/f4.png" alt="..">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Pesto Perfection
+                  </h5>
+                  <p>
+                    Pesto Perfection features a vibrant, fresh basil pesto sauce that coats pasta or a dish with rich. It’s the ideal choice for those craving a light yet flavorful meal.</p>
+                  <div class="options">
+                    <h6>
+                      4$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- dessert -->
+          <div class="col-sm-6 col-lg-4">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/dessert1.png" alt="..">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Panna Cotta
+                  </h5>
+                  <p>
+                    Panna Cotta is a creamy Italian dessert, lightly sweetened and set with gelatin, often topped with fruit or sauces.  <br><br>           
+                  </p>
+                  <div class="options">
+                    <h6>
+                      6$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/dessert2.png" alt="..">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Matcha cheese
+                  </h5>
+                  <p>
+                    Matcha Cheesecake is a creamy, earthy dessert featuring matcha green tea and a buttery crust, offering a vibrant twist on the classic cheesecake.
+                  </p>
+                  <div class="options">
+                    <h6>
+                      4$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <div class="box">
+              <div>
+                <div class="img-box">
+                  <img src="images/dessert3.png" alt="..">
+                </div>
+                <div class="detail-box">
+                  <h5>
+                    Crème Brûlée
+                  </h5>
+                  <p>
+                    Crème Brûlée is a creamy vanilla custard topped with a caramelized sugar crust. It offers a perfect balance of smooth texture and crisp top.
+                  </p>
+                  <div class="options">
+                    <h6>
+                      3$
+                    </h6>
+                    <a href="" class="text-white">
+                      <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="btn-box">
-        <a href="">
-          View More
-        </a>
       </div>
     </div>
   </section>
+  <!-- End food section -->
 
-  <!-- end food section -->
-
-  <!-- footer section -->
+  <!-- start footer section -->
   <footer class="footer_section">
     <div class="container">
       <div class="row">
@@ -355,19 +427,19 @@
         </div>
         <div class="col-md-4 footer-col">
           <div class="footer_detail">
-            <a href="" class="footer-logo">
+            <a href="about.html" class="footer-logo">
               MARone REST
             </a>
             <p>
               We're active on social media, where we share updates, promotions, and new menu items. Follow us on Facebook, Instagram, and Twitter to stay connected and be part of our community.</p>
             <div class="footer_social">
-              <a href="">
+              <a href="#">
                 <i class="fa fa-facebook"></i>
               </a>
-              <a href="">
+              <a href="#">
                 <i class="fa fa-twitter"></i>
               </a>
-              <a href="">
+              <a href="#">
                 <i class="fa fa-instagram"></i>
               </a>
             </div>
@@ -392,8 +464,6 @@
       </div>
     </div>
   </footer>
-  <!-- footer section -->
-
+  <!-- End footer section -->
 </body>
-
 </html>

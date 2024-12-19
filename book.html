@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-
+  <link rel="shortcut icon" href="images/favicon.png" type="">
   <title> MARone REST </title>
 
   <!-- bootstrap core css -->
@@ -19,9 +19,8 @@
   <link href="css/responsive.css" rel="stylesheet" />
 
 </head>
-
 <body class="sub_page">
-
+  
   <div class="hero_area">
     <div class="bg-box">
       <img src="images/hero-bg.jpg" alt="">
@@ -29,7 +28,7 @@
     <!-- header section strats -->
     <header class="header_section">
       <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
           <a class="navbar-brand" href="index.html">
             <span>
               MARone REST
@@ -41,7 +40,7 @@
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav  mx-auto ">
+            <ul class="navbar-nav  mx-auto">
               <li class="nav-item active">
                 <a class="nav-link" href="index.html">Home </a>
               </li>
@@ -56,15 +55,15 @@
               </li>
             </ul>
             <div class="user_option">
-              <a href="#footer" class="user_link">
+              <a href="index.html" class="user_link">
                 <i class="fa fa-user"></i>
               </a>
-              <a class="cart_link text-white" href="#">
+              <a class="cart_link text-white" href="menu.html">
                 <i class="fa fa-shopping-cart"></i>
               </a>
               <form class="form-inline">
                 <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
+                  <i class="fa fa-search"></i>
                 </button>
               </form>
             </div>
@@ -75,8 +74,8 @@
     <!-- end header section -->
   </div>
 
-  <!-- book section -->
-  <section class="book_section layout_padding">
+  <!-- start book section -->
+  <section class="book_section padding">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -86,31 +85,31 @@
             </h2>
           </div>
           <div class="form_container">
-            <form action="">
+            <form action="#" method="post">
               <div>
-                <input type="text" class="form-control" placeholder="Your Name" />
+                <input type="text" class="form-control" placeholder="Your Name" required>
               </div>
               <div>
-                <input type="text" class="form-control" placeholder="Phone Number" />
+                <input type="text" class="form-control" placeholder="Phone Number" required>
               </div>
               <div>
-                <input type="email" class="form-control" placeholder="Your Email" />
+                <input type="email" class="form-control" placeholder="Your Email" required>
               </div>
               <div>
-                <select class="form-control nice-select wide">
+                <select class="form-control nice-select wide" required>
                   <option value="" disabled selected>
                     How many persons?
                   </option>
-                  <option value="">
+                  <option value="2">
                     2
                   </option>
-                  <option value="">
+                  <option value="3">
                     3
                   </option>
-                  <option value="">
+                  <option value="4">
                     4
                   </option>
-                  <option value="">
+                  <option value="5">
                     5
                   </option>
                 </select>
@@ -119,7 +118,7 @@
                 <input type="date" class="form-control">
               </div>
               <div class="btn_box">
-                <button>
+                <button type="submit">
                   Book Now
                 </button>
               </div>
@@ -174,19 +173,19 @@
         </div>
         <div class="col-md-4 footer-col">
           <div class="footer_detail">
-            <a href="" class="footer-logo">
+            <a href="about.html" class="footer-logo">
               MARone REST
             </a>
             <p>
               We're active on social media, where we share updates, promotions, and new menu items. Follow us on Facebook, Instagram, and Twitter to stay connected and be part of our community.</p>
             <div class="footer_social">
-              <a href="">
+              <a href="#">
                 <i class="fa fa-facebook"></i>
               </a>
-              <a href="">
+              <a href="#">
                 <i class="fa fa-twitter"></i>
               </a>
-              <a href="">
+              <a href="#">
                 <i class="fa fa-instagram"></i>
               </a>
             </div>
@@ -213,5 +212,4 @@
   </footer>
   <!-- footer section -->
 </body>
-
 </html>
