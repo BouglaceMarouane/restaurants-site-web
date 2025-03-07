@@ -46,6 +46,6 @@ Ce projet m'a permis d'explorer plusieurs aspects du développement web :
 
 # 📬 Restons en Contact :
 
-📧 Email: bouglacemarouane@gmail.com  
-🌐 GitHub: [Bouglace Marouane](https://github.com/BouglaceMarouane)
-🌍 LinkedIn: [Marouane Bouglace Linkedin](https://www.linkedin.com/in/marouane-bouglace-68b17333b/)
+- 📧 Email: bouglacemarouane@gmail.com  
+- 🌐 GitHub: [Bouglace Marouane](https://github.com/BouglaceMarouane)
+- 🌍 LinkedIn: [Marouane Bouglace Linkedin](https://www.linkedin.com/in/marouane-bouglace-68b17333b/)
