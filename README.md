@@ -38,9 +38,7 @@ Ce projet m'a permis d'explorer plusieurs aspects du développement web :
 
 # 🔗 Comment Découvrir le Projet
 
-1. visit Mon site web:
-   ```lien
-   https://restaurants-site-web.onrender.com/
+<a href="https://restaurants-site-web.onrender.com/" alt="restaurant site web">visit Mon site web</a>
 
 ---
 
