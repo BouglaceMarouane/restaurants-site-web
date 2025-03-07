@@ -40,7 +40,7 @@ Ce projet m'a permis d'explorer plusieurs aspects du développement web :
 
 1. visit Mon site web:
    ```bash
-   <a href="https://restaurants-site-web.onrender.com/" target="_blank" alt="restaurant site web">visit Mon site web</a>
+   https://restaurants-site-web.onrender.com/
    
 ---
 
