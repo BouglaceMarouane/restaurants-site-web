@@ -32,7 +32,11 @@ Ce projet m'a permis d'explorer plusieurs aspects du développement web :
 
 ## 📸 Screenshots
 
-<img>
+<img src="https://github.com/BouglaceMarouane/restaurants-site-web/blob/95dd8fd658e6d63e0e673ea8e8f977d4bccb4777/rest/Screenshot%202025-03-07%20183350.png" alt="overview picture" width="250" height="250">
+<img src="https://github.com/BouglaceMarouane/restaurants-site-web/blob/95dd8fd658e6d63e0e673ea8e8f977d4bccb4777/rest/menu.png" alt="overview picture" width="250" height="250">
+<img src="https://github.com/BouglaceMarouane/restaurants-site-web/blob/95dd8fd658e6d63e0e673ea8e8f977d4bccb4777/rest/about.png" alt="overview picture" width="250" height="250">
+<img src="https://github.com/BouglaceMarouane/restaurants-site-web/blob/95dd8fd658e6d63e0e673ea8e8f977d4bccb4777/rest/location.png" alt="overview picture" width="250" height="250">
+<img src="https://github.com/BouglaceMarouane/restaurants-site-web/blob/95dd8fd658e6d63e0e673ea8e8f977d4bccb4777/rest/footer.png" alt="overview picture" width="250" height="250">
 
 ---
 
