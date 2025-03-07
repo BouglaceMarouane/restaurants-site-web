@@ -38,8 +38,10 @@ Ce projet m'a permis d'explorer plusieurs aspects du développement web :
 
 # 🔗 Comment Découvrir le Projet
 
-<a href="https://restaurants-site-web.onrender.com/" alt="restaurant site web">visit Mon site web</a>
-
+1. visit Mon site web:
+   ```bash
+   <a href="https://restaurants-site-web.onrender.com/" target="_blank" alt="restaurant site web">visit Mon site web</a>
+   
 ---
 
 # 📬 Restons en Contact :
