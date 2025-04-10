@@ -40,7 +40,7 @@ Ce projet m'a permis d'explorer plusieurs aspects du développement web :
 
 ---
 
-# 🔗 Comment Découvrir le Projet
+# 🔗 Comment Découvrir le Projet :
 
 1. visit Mon site web:
    ```bash
