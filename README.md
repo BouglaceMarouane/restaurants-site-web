@@ -3,7 +3,7 @@ Je suis fier de vous présenter MARone REST, un site web dynamique que j’ai d�
 
 ---
 
-# 🚀 Fonctionnalités Clés
+# 🚀 Fonctionnalités Clés :
 - 🍽️ **Informations sur le Restaurant** : Horaires d'ouverture, adresse et coordonnées facilement accessibles.
 - 📢 **Daily Offer** : Une section dédiée aux offres spéciales du jour pour attirer et fidéliser les clients.
 - 📖 **Menu Détaillé** : Présentation complète des plats avec descriptions et images pour éveiller l'appétit.
