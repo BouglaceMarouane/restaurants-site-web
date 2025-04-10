@@ -21,7 +21,7 @@ Je suis fier de vous présenter MARone REST, un site web dynamique que j’ai d�
 
 ---
 
-# 📚 Ce Que J’ai Appris Grâce à Ce Projet
+# 📚 Ce Que J’ai Appris Grâce à Ce Projet :
 Ce projet m'a permis d'explorer plusieurs aspects du développement web :
 
 - ✅ **Créer une Interface Interactive** : J'ai perfectionné mes compétences en intégrant des sections dynamiques comme les offres quotidiennes et les commentaires clients.
