@@ -13,6 +13,7 @@ Je suis fier de vous présenter MARone REST, un site web dynamique que j’ai d�
 ---
 
 # 🛠️ Technologies Utilisées :
+
 <ul>
   <li> <b>HTML5</b> : Pour une structure claire et optimisée.</li>
   <li> <b>CSS3</b> : Pour un design moderne et responsive.</li>
