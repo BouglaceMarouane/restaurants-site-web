@@ -2,7 +2,6 @@
 
 
 
-
 # 🍽 MARone REST – Une Expérience Digitale Complète pour un Restaurant Moderne
 Je suis fier de vous présenter MARone REST, un site web dynamique que j’ai développé en utilisant **HTML5**, **CSS3** et **Bootstrap**. Ce projet vise à offrir une expérience fluide aux clients, en leur donnant accès à toutes les informations essentielles du restaurant avec un design moderne et responsive.
 
